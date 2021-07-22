@@ -1,0 +1,88 @@
+body {
+    background-color: #aaa;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+#header {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#header_content {
+    font-size:30px;
+}
+#header small {
+    font-size: xx-small;
+}
+.calcArea {
+    /* background: linear-gradient(135deg, rgb(3, 3, 100,0.7),#DAFF00 ); */
+    background: linear-gradient(45deg, rgb(9, 39, 4,0.5), rgba(0, 0 ,255,0.5) );
+    width: 400px;
+    height: 410px;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+.form {
+    position: absolute;
+    left: 24px;
+    top: 10px;
+    width: 350px ;
+}
+.form input {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font:normal 15px 'Orbitron', sans-serif;
+    text-align: center;
+}
+#operation {
+    width: 20%;
+    margin-left: 150px;
+}
+.table {
+    position: absolute;
+    left: 24px;
+    top: 150px; /* after 200px */
+    width: 350px ;
+    height: 250px;
+}
+.table tr td {
+    border:none;
+    border-radius: 10px;
+    background: linear-gradient(225deg,rgb(255, 255, 255),rgb(0, 0, 0, 0.5));
+    font: normal bolder 25px 'Orbitron', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.inputfocus {
+    box-shadow: 0 0 5px 5px rgb(179, 179, 179);
+}
+.focused {
+    box-shadow: 0 0 5px 5px rgb(228, 68, 5);
+    /* background: linear-gradient(to right, #0099f7, #f11712); */
+}
+.common {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    width: 350px;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(9, 39, 4,0.5), rgba(0, 0 ,255,0.5) );
+    border-radius:5px;
+    padding: 8px 0;
+    font:normal 15px 'Orbitron', sans-serif;
+    overflow-x: auto;
+    visibility: hidden;
+}
+.result {
+    color: #fff; 
+}
+.warning {
+    color: red;
+    font-weight:bolder;
+    background: linear-gradient(45deg, rgb(202, 202, 202), rgba(146, 146, 146, 0.5) );
+}
